@@ -1,39 +1,40 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CryptoBar.com | Premium Domain Acquisition</title>
-  <meta name="description" content="Acquire CryptoBar.com - a premium .com domain asset. Submit a make-offer inquiry or request the asking price via email or WhatsApp with escrow-secured transfer.">
+  <meta name="description" content="CryptoBar.com is a premium .com domain available for acquisition. Submit an offer or request the price by email or WhatsApp with escrow-secured transfer.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-0: #05070d;
-      --bg-1: #0a1020;
-      --bg-2: #121d33;
-      --surface: rgba(10, 16, 29, 0.9);
-      --surface-soft: rgba(255, 255, 255, 0.03);
-      --surface-elev: rgba(255, 255, 255, 0.05);
-      --text: #edf3ff;
-      --muted: #a8b5cd;
-      --line: rgba(186, 201, 229, 0.2);
-      --line-strong: rgba(186, 201, 229, 0.38);
-      --gold: #d8ae72;
-      --gold-soft: #fff2dc;
-      --teal: #33d6c0;
-      --teal-soft: #d8fff7;
-      --mail: #81b7ff;
-      --mail-bg: rgba(129, 183, 255, 0.12);
-      --wa: #66d59a;
-      --wa-bg: rgba(102, 213, 154, 0.13);
-      --danger: #ff8f8f;
+      --bg: #edf3fa;
+      --bg-soft: #f4f8fc;
+      --ink: #0e1526;
+      --muted: #5d6e85;
+      --line: #d4e0ee;
+      --line-strong: #b8cadc;
+      --white: #ffffff;
+      --navy-950: #040914;
+      --navy-900: #081324;
+      --navy-850: #102540;
+      --steel-900: #1d3651;
+      --steel-700: #466889;
+      --steel-500: #88aec9;
+      --steel-300: #c7dff1;
+      --steel-200: #eaf3fb;
+      --mail: #2a6fd4;
+      --mail-soft: #ecf3ff;
+      --wa: #159a55;
+      --wa-soft: #e9f8ef;
+      --danger: #cf3a3a;
       --radius-xl: 28px;
-      --radius-lg: 16px;
+      --radius-lg: 18px;
       --radius-md: 12px;
-      --shadow-xl: 0 30px 80px rgba(0, 0, 0, 0.42);
-      --shadow-md: 0 18px 40px rgba(0, 0, 0, 0.3);
+      --shadow-panel: 0 26px 74px rgba(16, 35, 61, 0.14);
+      --shadow-card: 0 16px 40px rgba(17, 34, 59, 0.1);
     }
 
     * {
@@ -47,14 +48,14 @@
     }
 
     body {
-      font-family: "Manrope", "Segoe UI", sans-serif;
-      color: var(--text);
+      font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
       background:
-        radial-gradient(circle at 8% 8%, rgba(216, 174, 114, 0.16), transparent 32%),
-        radial-gradient(circle at 93% 3%, rgba(51, 214, 192, 0.14), transparent 30%),
-        linear-gradient(162deg, var(--bg-0) 0%, var(--bg-1) 46%, var(--bg-2) 100%);
-      min-height: 100vh;
+        radial-gradient(circle at 7% 8%, rgba(139, 174, 202, 0.25), transparent 31%),
+        radial-gradient(circle at 93% 4%, rgba(16, 37, 64, 0.09), transparent 28%),
+        linear-gradient(160deg, #f5f8fd 0%, var(--bg) 52%, #e9f0f8 100%);
       overflow-x: hidden;
+      min-height: 100vh;
     }
 
     body::before {
@@ -63,10 +64,10 @@
       inset: 0;
       pointer-events: none;
       background-image:
-        linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-      background-size: 34px 34px;
-      mask-image: radial-gradient(circle at 50% 36%, rgba(0, 0, 0, 0.88), transparent 78%);
+        linear-gradient(rgba(14, 25, 43, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(14, 25, 43, 0.03) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: radial-gradient(circle at 50% 32%, rgba(0, 0, 0, 0.85), transparent 75%);
     }
 
     a {
@@ -75,211 +76,201 @@
     }
 
     .page {
-      width: min(1220px, calc(100% - 1rem));
+      width: min(1240px, calc(100% - 1rem));
       margin: 0 auto;
+      padding: 0.7rem 0 1rem;
+      display: grid;
+      gap: 0.72rem;
       position: relative;
       z-index: 1;
-      padding: 0.9rem 0 1rem;
-      display: grid;
-      gap: 0.76rem;
     }
 
-    .card {
+    .panel {
       border: 1px solid var(--line);
       border-radius: var(--radius-xl);
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
-      box-shadow: var(--shadow-xl);
-      backdrop-filter: blur(8px);
+      background: var(--white);
+      box-shadow: var(--shadow-panel);
       position: relative;
       overflow: hidden;
     }
 
-    .card::before {
+    .panel::after {
       content: "";
       position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      border: 1px solid transparent;
-      background:
-        linear-gradient(140deg, rgba(248, 228, 190, 0.18), rgba(248, 228, 190, 0)) border-box;
-      -webkit-mask:
-        linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
-      -webkit-mask-composite: xor;
-      mask-composite: exclude;
-      pointer-events: none;
-    }
-
-    .card::after {
-      content: "";
-      position: absolute;
-      top: -120px;
-      right: -82px;
-      width: 220px;
-      height: 220px;
+      top: -150px;
+      right: -96px;
+      width: 260px;
+      height: 260px;
       border-radius: 50%;
-      background: radial-gradient(circle at 30% 30%, rgba(216, 174, 114, 0.18), transparent 72%);
+      background: radial-gradient(circle at 28% 30%, rgba(139, 174, 202, 0.26), rgba(139, 174, 202, 0));
       pointer-events: none;
     }
 
     .topbar {
       min-height: 76px;
-      padding: 0.74rem 0.92rem;
+      padding: 0.66rem 0.84rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 0.6rem;
+      gap: 0.46rem;
       flex-wrap: wrap;
     }
 
     .brand {
       display: inline-flex;
-      align-items: baseline;
-      gap: 0;
+      align-items: center;
+      justify-content: center;
       min-width: 0;
+      position: relative;
+      padding: 0.02rem;
     }
 
-    .brand-text {
-      display: grid;
-      min-width: 0;
-      line-height: 1;
-    }
-
-    .brand-text strong {
+    .brand-cb {
       font-family: "Playfair Display", Georgia, serif;
-      font-size: clamp(1.72rem, 3.5vw, 2.45rem);
+      font-size: clamp(1.95rem, 3.8vw, 3rem);
+      line-height: 0.88;
       font-weight: 700;
-      letter-spacing: -0.01em;
-      background: linear-gradient(98deg, #fff6e4 8%, #e7c58f 54%, #ca9148 96%);
+      letter-spacing: -0.035em;
+      display: inline-flex;
+      align-items: flex-end;
+      padding: 0.1em 0.26em 0.12em;
+      border-radius: 14px;
+      border: 1px solid #c8daec;
+      background: linear-gradient(156deg, #ffffff 0%, #edf5fd 100%);
+      color: #0c172c;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.84),
+        0 8px 18px rgba(27, 49, 78, 0.09);
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+      transition: transform 170ms ease, box-shadow 170ms ease, border-color 170ms ease;
+    }
+
+    .brand-cb .b {
+      margin-left: 0.03em;
+      position: relative;
+      background: linear-gradient(110deg, #122847 7%, #8bb3cf 58%, #486b8a 100%);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      text-shadow: 0 0 22px rgba(216, 174, 114, 0.12);
     }
 
-    .brand-text small {
-      margin-top: 0.12rem;
-      color: var(--muted);
-      font-size: 0.67rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
+    .brand-cb .b::after {
+      content: "";
+      position: absolute;
+      left: 12%;
+      right: 10%;
+      top: 56%;
+      height: 0.065em;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(198, 224, 243, 0.85), rgba(255, 255, 255, 0));
+      pointer-events: none;
+      opacity: 0.75;
     }
 
-    .contact-list {
+    .brand:hover .brand-cb {
+      transform: translateY(-1px);
+      border-color: #b5cbe0;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        0 12px 26px rgba(24, 46, 74, 0.14);
+    }
+
+    .contact-row {
       display: flex;
-      gap: 0.42rem;
       flex-wrap: wrap;
       justify-content: flex-end;
+      gap: 0.34rem;
+      align-items: center;
     }
 
     .chip {
       min-height: 36px;
-      border: 1px solid var(--line);
       border-radius: 999px;
-      padding: 0.36rem 0.68rem;
+      border: 1px solid var(--line);
+      padding: 0.33rem 0.64rem;
       display: inline-flex;
       align-items: center;
       gap: 0.3rem;
-      font-size: 0.76rem;
+      font-size: 0.74rem;
       font-weight: 700;
       white-space: nowrap;
-      background: var(--surface-soft);
-      transition: transform 150ms ease, border-color 150ms ease, filter 150ms ease;
+      background: #f7faff;
+      transition: transform 140ms ease, border-color 140ms ease;
     }
 
     .chip:hover {
       transform: translateY(-1px);
       border-color: var(--line-strong);
-      filter: saturate(1.06);
     }
 
     .chip svg {
       width: 13px;
       height: 13px;
-      fill: currentColor;
       flex: none;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
     .chip.email {
       color: var(--mail);
-      background: var(--mail-bg);
-      border-color: rgba(129, 183, 255, 0.35);
+      background: var(--mail-soft);
+      border-color: #c6dafb;
     }
 
     .chip.whatsapp {
       color: var(--wa);
-      background: var(--wa-bg);
-      border-color: rgba(102, 213, 154, 0.36);
+      background: var(--wa-soft);
+      border-color: #c9ebd8;
     }
 
+    .chip.deck {
+      color: #355679;
+      background: var(--steel-200);
+      border-color: #c4d8ea;
+    }
     .hero {
-      display: grid;
-      grid-template-columns: minmax(0, 1.16fr) minmax(0, 0.84fr);
-      gap: 0.76rem;
       padding: 0.82rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.68rem;
       align-items: stretch;
     }
 
-    .hero-main,
-    .form-card {
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      background:
-        linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01)),
-        var(--surface);
-      box-shadow: var(--shadow-md);
-      padding: 0.86rem;
-    }
-
     .hero-main {
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 0.84rem;
+      background: linear-gradient(160deg, rgba(255, 255, 255, 0.97), rgba(247, 251, 255, 0.95));
+      box-shadow: var(--shadow-card);
       display: grid;
-      align-content: start;
-      gap: 0.22rem;
-    }
-
-    .form-card {
+      gap: 0.52rem;
       position: relative;
-      overflow: hidden;
+      z-index: 1;
     }
 
-    .form-card::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(216, 174, 114, 0.8), rgba(255, 255, 255, 0));
-      pointer-events: none;
-    }
-
-    .tag {
-      display: inline-flex;
-      border: 1px solid rgba(216, 174, 114, 0.4);
-      border-radius: 999px;
-      background: rgba(216, 174, 114, 0.12);
-      color: #f0c987;
-      padding: 0.28rem 0.58rem;
-      font-size: 0.66rem;
-      font-weight: 700;
-      letter-spacing: 0.09em;
+    .eyebrow {
+      margin: 0;
+      font-size: 0.67rem;
+      letter-spacing: 0.13em;
       text-transform: uppercase;
+      font-weight: 800;
+      color: #57708f;
     }
 
     h1 {
-      margin: 0.5rem 0 0.34rem;
+      margin: 0;
       font-family: "Playfair Display", Georgia, serif;
-      font-size: clamp(2.5rem, 5.7vw, 4.65rem);
+      font-size: clamp(2.4rem, 6.9vw, 5rem);
       line-height: 0.88;
-      letter-spacing: -0.015em;
-      max-width: 100%;
+      letter-spacing: -0.03em;
+      color: #0a1324;
     }
 
-    .domain {
-      background: linear-gradient(100deg, #fff4de 9%, #dfb97f 55%, #c48f55 97%);
+    h1 .accent {
+      background: linear-gradient(108deg, #0e203a 7%, #90b7d2 61%, #416280 100%);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -287,159 +278,111 @@
 
     .lead {
       margin: 0;
+      font-size: 0.93rem;
+      line-height: 1.58;
       color: var(--muted);
-      font-size: 0.97rem;
-      line-height: 1.62;
-      max-width: 60ch;
+      max-width: 62ch;
     }
 
-    .signal-grid {
-      margin-top: 0.56rem;
+    .quick-points {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 0.42rem;
+      gap: 0.36rem;
     }
 
-    .signal {
+    .quick-point {
       border: 1px solid var(--line);
       border-radius: var(--radius-md);
-      background: var(--surface-elev);
-      padding: 0.5rem;
+      background: #f8fbff;
+      padding: 0.43rem;
       display: grid;
-      gap: 0.22rem;
+      gap: 0.12rem;
     }
 
-    .signal i {
-      width: 30px;
-      height: 30px;
-      border-radius: 9px;
-      display: grid;
-      place-items: center;
-      color: #f1d3a0;
-      background: rgba(216, 174, 114, 0.15);
+    .quick-point svg {
+      width: 17px;
+      height: 17px;
+      fill: none;
+      stroke: #3b5f84;
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
-    .signal i svg {
-      width: 16px;
-      height: 16px;
-      fill: currentColor;
+    .quick-point strong {
+      font-size: 0.76rem;
+      line-height: 1.22;
+      color: #121c2f;
     }
 
-    .signal strong {
-      font-size: 0.79rem;
-      color: #edf3ff;
-    }
-
-    .signal span {
-      font-size: 0.72rem;
+    .quick-point span {
+      font-size: 0.69rem;
+      line-height: 1.35;
       color: var(--muted);
-      line-height: 1.36;
     }
 
-    .cta-row {
-      margin-top: 0.58rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.38rem;
-    }
-
-    .btn {
-      min-height: 41px;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 0.52rem 0.84rem;
-      font: inherit;
-      font-size: 0.8rem;
-      font-weight: 800;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.32rem;
-      cursor: pointer;
-      background: rgba(255, 255, 255, 0.03);
-      color: var(--text);
-      white-space: nowrap;
-      transition: transform 150ms ease, border-color 150ms ease, filter 150ms ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-1px);
-      border-color: var(--line-strong);
-      filter: saturate(1.06);
-    }
-
-    .btn svg {
-      width: 13px;
-      height: 13px;
-      fill: currentColor;
-      flex: none;
-    }
-
-    .btn.primary {
-      color: #201406;
-      background: linear-gradient(118deg, #f6dfb7 12%, #d8ae72 72%, #b98245 100%);
-      border-color: #d8ae72;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .btn.primary::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(105deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
-      transform: translateX(-130%);
-      transition: transform 520ms ease;
-    }
-
-    .btn.primary:hover::after {
-      transform: translateX(130%);
-    }
-
-    .btn.email {
-      color: var(--mail);
-      background: var(--mail-bg);
-      border-color: rgba(129, 183, 255, 0.35);
-    }
-
-    .btn.whatsapp {
-      color: var(--wa);
-      background: var(--wa-bg);
-      border-color: rgba(102, 213, 154, 0.36);
-    }
-
-    .proof-row {
-      margin-top: 0.48rem;
+    .hero-actions {
       display: flex;
       flex-wrap: wrap;
       gap: 0.34rem;
+      align-items: center;
     }
 
-    .proof {
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.03);
-      padding: 0.26rem 0.56rem;
-      font-size: 0.69rem;
-      color: #d0d9ea;
-    }
-
-    .form-card h2 {
+    .hero-note {
       margin: 0;
-      font-size: 1.05rem;
-      letter-spacing: 0.01em;
+      font-size: 0.71rem;
+      color: #5f6f84;
+      line-height: 1.35;
     }
 
-    .form-intro {
-      margin: 0.2rem 0 0.56rem;
-      color: var(--muted);
-      font-size: 0.78rem;
+    .hero-note-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.42rem;
+    }
+
+    .hero-note-row img {
+      width: min(158px, 42vw);
+      height: auto;
+      display: block;
+      border: 1px solid #cfdeed;
+      border-radius: 10px;
+      background: #f6fbff;
+      padding: 0.1rem;
+      box-shadow: 0 6px 14px rgba(31, 53, 82, 0.08);
+    }
+
+    .sell-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.68rem;
+    }
+
+    .form-panel {
+      padding: 0.78rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(160deg, rgba(255, 255, 255, 0.95), rgba(248, 252, 255, 0.97));
+      box-shadow: var(--shadow-card);
+    }
+
+    .form-panel h2 {
+      margin: 0;
+      font-size: 1.03rem;
+      color: #10192c;
+    }
+
+    .form-sub {
+      margin: 0.2rem 0 0.52rem;
+      font-size: 0.75rem;
       line-height: 1.42;
+      color: var(--muted);
     }
 
     form {
       display: grid;
-      gap: 0.48rem;
+      gap: 0.44rem;
     }
 
     .field {
@@ -451,7 +394,7 @@
     .label {
       font-size: 0.74rem;
       font-weight: 700;
-      color: #e6edfb;
+      color: #1a253a;
     }
 
     .input,
@@ -460,27 +403,27 @@
       min-height: 40px;
       border: 1px solid var(--line);
       border-radius: 10px;
-      background: #0b1322;
-      color: var(--text);
+      background: #ffffff;
+      color: #111827;
       font: inherit;
-      font-size: 0.83rem;
+      font-size: 0.82rem;
       padding: 0.52rem 0.58rem;
     }
 
     .input::placeholder,
     textarea::placeholder {
-      color: #7e8ba2;
+      color: #8b98ad;
     }
 
     .input:focus,
     textarea:focus {
       outline: none;
-      border-color: rgba(216, 174, 114, 0.65);
-      box-shadow: 0 0 0 3px rgba(216, 174, 114, 0.14);
+      border-color: #95b4d2;
+      box-shadow: 0 0 0 3px #e7f0fb;
     }
 
     textarea {
-      min-height: 82px;
+      min-height: 84px;
       resize: vertical;
     }
 
@@ -493,386 +436,426 @@
     .opt {
       border: 1px solid var(--line);
       border-radius: 999px;
-      padding: 0.3rem 0.62rem;
+      padding: 0.29rem 0.6rem;
       display: inline-flex;
       align-items: center;
       gap: 0.3rem;
+      background: #fff;
+      color: #27364e;
       font-size: 0.74rem;
       font-weight: 700;
-      background: rgba(255, 255, 255, 0.03);
-      color: #dbe5f7;
       cursor: pointer;
     }
 
     .opt input {
       margin: 0;
-      accent-color: #d8ae72;
+      accent-color: #203552;
     }
 
     .opt svg {
       width: 12px;
       height: 12px;
-      fill: currentColor;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
       flex: none;
     }
 
     .opt.email {
       color: var(--mail);
-      background: var(--mail-bg);
-      border-color: rgba(129, 183, 255, 0.35);
+      border-color: #c8dbfb;
+      background: var(--mail-soft);
     }
 
     .opt.whatsapp {
       color: var(--wa);
-      background: var(--wa-bg);
-      border-color: rgba(102, 213, 154, 0.36);
+      border-color: #ccecd9;
+      background: var(--wa-soft);
     }
 
     .error {
       margin: 0;
       display: none;
       color: var(--danger);
-      font-size: 0.73rem;
+      font-size: 0.72rem;
       font-weight: 700;
     }
 
-    .qr-box {
+    .qr {
       display: none;
       grid-template-columns: auto 1fr;
       align-items: center;
-      gap: 0.44rem;
-      border: 1px solid rgba(102, 213, 154, 0.36);
+      gap: 0.42rem;
+      border: 1px solid #cdeedb;
       border-radius: 10px;
-      background: var(--wa-bg);
+      background: var(--wa-soft);
       padding: 0.42rem;
     }
 
-    .qr-box.show {
+    .qr.show {
       display: grid;
     }
-    .qr-box img {
-      width: 76px;
-      height: 76px;
+
+    .qr img {
+      width: 78px;
+      height: 78px;
       border-radius: 8px;
-      background: #ffffff;
+      background: #fff;
       padding: 4px;
       display: block;
     }
-
-    .qr-box strong {
+    .qr strong {
       display: block;
       margin-bottom: 0.1rem;
-      color: #9ce6bf;
       font-size: 0.73rem;
+      color: #0f8850;
     }
 
-    .qr-box span {
+    .qr span {
       display: block;
-      color: #7fbc9d;
-      font-size: 0.7rem;
-      margin-bottom: 0.14rem;
+      margin-bottom: 0.13rem;
+      font-size: 0.69rem;
+      color: #4f8a6c;
     }
 
-    .qr-box a {
-      font-size: 0.69rem;
-      color: #a8edc9;
+    .qr a {
+      font-size: 0.68rem;
+      color: #0c7844;
       text-decoration: underline;
       text-underline-offset: 2px;
     }
 
-    .submit-row {
-      margin-top: 0.05rem;
+    .submit {
+      margin-top: 0.04rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 0.42rem;
       flex-wrap: wrap;
-    }
-
-    .inline {
-      font-size: 0.7rem;
-      color: var(--muted);
-      text-decoration: underline;
-      text-underline-offset: 2px;
-    }
-
-    .why {
-      padding: 0.74rem;
-      display: grid;
-      gap: 0.44rem;
-    }
-
-    .why h3 {
-      margin: 0;
-      font-size: 1rem;
-    }
-
-    .why-grid {
-      display: grid;
-      grid-template-columns: repeat(12, minmax(0, 1fr));
       gap: 0.4rem;
     }
 
-    .why-card:nth-child(1),
-    .why-card:nth-child(4) {
-      grid-column: span 5;
-    }
-
-    .why-card:nth-child(2),
-    .why-card:nth-child(3) {
-      grid-column: span 7;
-    }
-
-    .why-card {
-      border: 1px solid var(--line);
-      border-radius: 11px;
-      background:
-        linear-gradient(160deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.01)),
-        var(--surface);
-      padding: 0.5rem;
-      display: grid;
-      gap: 0.16rem;
-      transition: transform 160ms ease, border-color 160ms ease;
-    }
-
-    .why-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--line-strong);
-    }
-
-    .why-card strong {
-      font-size: 0.78rem;
-    }
-
-    .why-card span {
-      font-size: 0.72rem;
-      color: var(--muted);
-      line-height: 1.35;
-    }
-
-    .escrow {
-      padding: 0.72rem;
-      display: grid;
-      grid-template-columns: auto 1fr auto;
-      align-items: center;
-      gap: 0.46rem;
-    }
-
-    .escrow-logo-wrap {
-      border: 1px solid var(--line);
+    .btn {
+      min-height: 41px;
       border-radius: 10px;
-      background: #0c1422;
-      padding: 0.28rem 0.36rem;
+      border: 1px solid var(--line);
+      padding: 0.51rem 0.84rem;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-    }
-
-    .escrow-logo {
-      width: min(232px, 49vw);
-      height: auto;
-      display: block;
-    }
-
-    .escrow-copy strong {
-      display: block;
-      margin-bottom: 0.12rem;
+      gap: 0.3rem;
+      font: inherit;
       font-size: 0.79rem;
+      font-weight: 800;
+      white-space: nowrap;
+      cursor: pointer;
+      background: #fff;
+      color: #132034;
+      transition: transform 150ms ease, border-color 150ms ease;
     }
 
-    .escrow-copy span {
-      display: block;
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: var(--line-strong);
+    }
+
+    .btn svg {
+      width: 13px;
+      height: 13px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex: none;
+    }
+
+    .btn.primary {
+      color: #091321;
+      border-color: #93b6d4;
+      background: linear-gradient(114deg, #eaf3fd 10%, #bfd6ea 56%, #84abc8 100%);
+    }
+
+    .btn.deck {
+      color: #35567a;
+      border-color: #bdd2e6;
+      background: #ebf4fe;
+    }
+
+    .btn.email {
+      color: var(--mail);
+      border-color: #c8dbfb;
+      background: var(--mail-soft);
+    }
+
+    .btn.whatsapp {
+      color: var(--wa);
+      border-color: #ccecd9;
+      background: var(--wa-soft);
+    }
+
+    .inline {
+      font-size: 0.68rem;
       color: var(--muted);
-      font-size: 0.72rem;
-      line-height: 1.35;
-      max-width: 64ch;
+      text-decoration: underline;
+      text-underline-offset: 2px;
     }
 
     .footer {
       border: 1px solid var(--line);
-      border-radius: 12px;
-      background: var(--surface);
-      padding: 0.5rem 0.64rem;
+      border-radius: var(--radius-lg);
+      background: #ffffff;
+      box-shadow: var(--shadow-card);
+      padding: 0.5rem 0.62rem;
       display: flex;
       justify-content: space-between;
-      gap: 0.34rem;
       flex-wrap: wrap;
-      color: var(--muted);
+      gap: 0.34rem;
       font-size: 0.7rem;
+      color: var(--muted);
     }
 
     .mobile-dock {
       display: none;
     }
 
-    @media (max-width: 1080px) {
-      .hero {
+    .reveal {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: rise 620ms ease forwards;
+    }
+
+    .delay-1 {
+      animation-delay: 80ms;
+    }
+
+    .delay-2 {
+      animation-delay: 140ms;
+    }
+
+    .delay-3 {
+      animation-delay: 200ms;
+    }
+
+    @keyframes rise {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal {
+        opacity: 1;
+        transform: none;
+        animation: none;
+      }
+    }
+
+    @media (max-width: 1120px) {
+      .hero,
+      .sell-grid {
         grid-template-columns: 1fr;
       }
 
-      .why-grid {
+      .quick-points {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
+    }
 
-      .why-card:nth-child(1),
-      .why-card:nth-child(2),
-      .why-card:nth-child(3),
-      .why-card:nth-child(4) {
-        grid-column: span 1;
+    @media (max-width: 980px) {
+      .topbar {
+        align-items: flex-start;
       }
 
-      .signal-grid {
+      .brand {
+        width: 100%;
+      }
+
+      .brand-cb {
+        font-size: clamp(1.8rem, 7vw, 2.8rem);
+      }
+
+      .contact-row {
+        width: 100%;
+        display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-content: stretch;
       }
 
-      .escrow {
-        grid-template-columns: 1fr;
+      .contact-row .chip {
+        min-width: 0;
+        justify-content: center;
+      }
+
+      .contact-row .chip.deck {
+        grid-column: 1 / -1;
       }
     }
 
     @media (max-width: 760px) {
       .page {
-        width: min(1220px, calc(100% - 0.72rem));
+        width: min(1240px, calc(100% - 0.66rem));
       }
 
-      .hero {
+      .topbar,
+      .hero,
+      .form-panel {
         padding: 0.62rem;
       }
 
-      .hero-main,
-      .form-card,
-      .why,
-      .escrow {
-        padding: 0.64rem;
+      .hero-main {
+        padding: 0.62rem;
       }
 
-      .signal-grid,
-      .why-grid {
+      .quick-points {
         grid-template-columns: 1fr;
       }
 
-      .qr-box {
+      .hero-note-row {
+        align-items: flex-start;
+      }
+
+      .qr {
         grid-template-columns: 1fr;
       }
 
       .mobile-dock {
         display: flex;
         position: sticky;
-        bottom: 0.46rem;
+        bottom: 0.42rem;
         z-index: 30;
-        gap: 0.34rem;
+        gap: 0.32rem;
       }
 
       .mobile-dock a {
         flex: 1;
-        min-height: 42px;
       }
     }
 
-    @media (prefers-reduced-motion: no-preference) {
-      .card {
-        animation: rise 460ms ease both;
+    @media (max-width: 560px) {
+      .brand-cb {
+        font-size: clamp(1.62rem, 11vw, 2.25rem);
       }
-      .card:nth-child(2) { animation-delay: 60ms; }
-      .card:nth-child(3) { animation-delay: 120ms; }
-      .card:nth-child(4) { animation-delay: 180ms; }
-      .card:nth-child(5) { animation-delay: 220ms; }
-    }
 
-    @keyframes rise {
-      from {
-        opacity: 0;
-        transform: translateY(8px);
+      .contact-row {
+        grid-template-columns: 1fr;
       }
-      to {
-        opacity: 1;
-        transform: translateY(0);
+
+      .contact-row .chip {
+        justify-content: flex-start;
+        white-space: normal;
+        line-height: 1.25;
+      }
+
+      .contact-row .chip.deck {
+        grid-column: auto;
       }
     }
   </style>
 </head>
 <body>
   <div class="page">
-    <header class="card topbar">
+    <header class="panel topbar reveal">
       <a class="brand" href="#" aria-label="CryptoBar home">
-        <span class="brand-text">
-          <strong>CryptoBar.com</strong>
-          <small>Premium Domain Asset</small>
+        <span class="brand-cb" role="text" aria-label="CB">
+          C<span class="b">B</span>
         </span>
       </a>
 
-      <nav class="contact-list" aria-label="Direct contact">
-        <a class="chip email" href="mailto:owner@cryptobar.com" aria-label="Email owner">
+      <nav class="contact-row" aria-label="Direct contact">
+        <a class="chip email" href="mailto:owner@cryptobar.com" aria-label="Email contact">
           <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.2L8 9 0 4.2V4Zm0 1.73V12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.73L8.56 10.2a1 1 0 0 1-1.12 0L0 5.73Z"></path>
+            <path d="M2 3.5h12a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1Z"></path>
+            <path d="m1.5 4.5 6.5 4.7 6.5-4.7"></path>
           </svg>
           owner@cryptobar.com
         </a>
-        <a class="chip whatsapp" href="https://wa.me/16623521224" target="_blank" rel="noopener" aria-label="WhatsApp owner">
+
+        <a class="chip whatsapp" href="https://wa.me/16623521224" target="_blank" rel="noopener" aria-label="WhatsApp contact">
           <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path d="M13.6 2.33A7.85 7.85 0 0 0 8.04 0C3.58 0 0 3.58 0 8.04a7.9 7.9 0 0 0 1.11 4.02L0 16l4.05-1.06a7.9 7.9 0 0 0 3.99 1.03h.01c4.45 0 8.04-3.58 8.04-8.04a7.96 7.96 0 0 0-2.49-5.6Zm-1.95 7.35c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.44.1-.13.2-.5.64-.62.77-.11.13-.23.15-.43.05-.2-.1-.82-.3-1.57-.98-.58-.52-.98-1.17-1.1-1.37-.11-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.11.13-.2.2-.34.07-.13.03-.25-.02-.35-.05-.1-.44-1.05-.6-1.44-.16-.38-.33-.33-.44-.33h-.38c-.13 0-.34.05-.52.25-.18.2-.68.67-.68 1.63 0 .96.7 1.9.8 2.03.1.13 1.38 2.1 3.34 2.95.47.2.83.31 1.12.4.47.15.9.13 1.24.08.38-.06 1.17-.48 1.34-.94.16-.47.16-.87.11-.95-.05-.08-.18-.13-.38-.23Z"></path>
+            <path d="M8 1.2a6.8 6.8 0 0 0-5.84 10.27L1 15l3.67-.96A6.8 6.8 0 1 0 8 1.2Z"></path>
+            <path d="M10.77 9.62c-.13-.07-.77-.38-.89-.43-.12-.04-.2-.07-.29.07-.08.13-.33.43-.4.52-.07.09-.14.1-.27.04-.13-.07-.55-.2-1.04-.64-.39-.35-.65-.79-.73-.92-.08-.13 0-.2.06-.27.06-.06.13-.14.19-.22.06-.07.08-.13.12-.22.04-.09.02-.16-.01-.22-.03-.06-.29-.69-.4-.94-.1-.24-.22-.21-.3-.22h-.26c-.09 0-.22.04-.34.17-.12.13-.45.43-.45 1.05 0 .61.45 1.2.51 1.29.06.08.88 1.34 2.13 1.87.3.13.53.2.72.26.3.09.57.08.78.05.24-.04.75-.31.85-.61.1-.3.1-.57.07-.63-.03-.05-.11-.08-.24-.14Z"></path>
           </svg>
           +1 662 352 1224
         </a>
+
+        <a class="chip deck" href="CryptoBar_com_Premium_Deck.pdf" download aria-label="Download premium deck">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M8 2v8"></path>
+            <path d="m4.8 7.6 3.2 3.2 3.2-3.2"></path>
+            <path d="M2 12.5h12"></path>
+          </svg>
+          Download Deck
+        </a>
       </nav>
     </header>
-
-    <section class="card hero">
+    <section class="panel hero reveal delay-1" aria-label="Premium domain overview">
       <article class="hero-main">
-        <span class="tag">Exclusive Domain Opportunity</span>
-        <h1><span class="domain">CryptoBar.com</span></h1>
-        <p class="lead">A premium .com built for trust, memorability, and long-term brand value in crypto and fintech markets.</p>
+        <p class="eyebrow">Premium Domain Acquisition</p>
+        <h1>Crypto<span class="accent">Bar.com</span></h1>
+        <p class="lead">A high-authority .com for serious crypto brands, fintech products, media platforms, and global ventures that need instant trust and strategic positioning.</p>
 
-        <div class="signal-grid" aria-label="Value signals">
-          <article class="signal">
-            <i aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 2 3 6.5V12c0 5.1 3.4 9.9 9 11 5.6-1.1 9-5.9 9-11V6.5L12 2Z"></path></svg>
-            </i>
+        <div class="quick-points">
+          <article class="quick-point">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M10 2.5 12.1 6.7l4.6.66-3.33 3.25.78 4.6L10 13.1l-4.15 2.18.79-4.6L3.3 7.36l4.6-.66Z"></path>
+            </svg>
             <strong>Instant Authority</strong>
-            <span>Premium naming improves trust from first impression.</span>
+            <span>Premium naming improves first impression and buyer confidence.</span>
           </article>
-          <article class="signal">
-            <i aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9h-2.2a6.8 6.8 0 1 1-2-4.8L15 9h6V3l-2.5 2.5A9 9 0 0 0 12 3Z"></path></svg>
-            </i>
-            <strong>High Recall</strong>
-            <span>Short and memorable for growth, ads, and referrals.</span>
+
+          <article class="quick-point">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M4 16.5V4.5h12v12Z"></path>
+              <path d="M4 8.5h12"></path>
+              <path d="M8 4.5v12"></path>
+            </svg>
+            <strong>Memorable Brand</strong>
+            <span>Clear and easy to recall for direct traffic and repeat users.</span>
           </article>
-          <article class="signal">
-            <i aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M3 5h18v2H3V5Zm2 4h14v10H5V9Z"></path></svg>
-            </i>
-            <strong>Scarce Asset</strong>
-            <span>Top-tier category .com names are finite assets.</span>
+
+          <article class="quick-point">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M3.5 14.5 8.1 9.9l2.7 2.7 5.7-5.7"></path>
+              <path d="M12.8 6.9h3.7v3.7"></path>
+            </svg>
+            <strong>Long-Term Asset</strong>
+            <span>Own a strategic domain that compounds value over time.</span>
           </article>
         </div>
 
-        <div class="cta-row">
-          <a class="btn primary" href="#inquiry">Make Offer</a>
-          <a class="btn email" href="mailto:owner@cryptobar.com">
+        <div class="hero-actions">
+          <a class="btn primary" href="#inquiry">
             <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.2L8 9 0 4.2V4Zm0 1.73V12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.73L8.56 10.2a1 1 0 0 1-1.12 0L0 5.73Z"></path>
+              <path d="M2.5 8h11"></path>
+              <path d="m9.5 5 3 3-3 3"></path>
             </svg>
-            Email Contact
+            Make Offer
           </a>
-          <a class="btn whatsapp" href="https://wa.me/16623521224" target="_blank" rel="noopener">
+          <a class="btn deck" href="CryptoBar_com_Premium_Deck.pdf" download>
             <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M13.6 2.33A7.85 7.85 0 0 0 8.04 0C3.58 0 0 3.58 0 8.04a7.9 7.9 0 0 0 1.11 4.02L0 16l4.05-1.06a7.9 7.9 0 0 0 3.99 1.03h.01c4.45 0 8.04-3.58 8.04-8.04a7.96 7.96 0 0 0-2.49-5.6Zm-1.95 7.35c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.44.1-.13.2-.5.64-.62.77-.11.13-.23.15-.43.05-.2-.1-.82-.3-1.57-.98-.58-.52-.98-1.17-1.1-1.37-.11-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.11.13-.2.2-.34.07-.13.03-.25-.02-.35-.05-.1-.44-1.05-.6-1.44-.16-.38-.33-.33-.44-.33h-.38c-.13 0-.34.05-.52.25-.18.2-.68.67-.68 1.63 0 .96.7 1.9.8 2.03.1.13 1.38 2.1 3.34 2.95.47.2.83.31 1.12.4.47.15.9.13 1.24.08.38-.06 1.17-.48 1.34-.94.16-.47.16-.87.11-.95-.05-.08-.18-.13-.38-.23Z"></path>
+              <path d="M8 2v8"></path>
+              <path d="m4.8 7.6 3.2 3.2 3.2-3.2"></path>
+              <path d="M2 12.5h12"></path>
             </svg>
-            WhatsApp
+            Download Deck (PDF)
           </a>
         </div>
 
-        <div class="proof-row">
-          <span class="proof">Premium .com</span>
-          <span class="proof">Direct Listing</span>
-          <span class="proof">Escrow Transfer</span>
+        <div class="hero-note-row">
+          <img src="escrow-logo.svg" alt="Escrow.com logo">
+          <p class="hero-note">Secure ownership transfer is handled via escrow to protect both buyer and seller throughout the transaction.</p>
         </div>
       </article>
 
-      <aside class="form-card" id="inquiry">
+    </section>
+
+    <section class="sell-grid reveal delay-2">
+      <aside class="form-panel panel" id="inquiry" aria-label="Inquiry form">
         <h2>Make Offer / Request Price</h2>
-        <p class="form-intro">Email is selected by default. Switch to WhatsApp to reveal QR contact and send your message there.</p>
+        <p class="form-sub">Email is selected by default. Switch to WhatsApp if you prefer direct chat and QR contact.</p>
 
         <form id="inquiryForm" novalidate>
           <div class="field">
@@ -917,7 +900,7 @@
 
           <div class="field">
             <label for="message">Message (Optional)</label>
-            <textarea id="message" name="message" placeholder="Timeline, budget context, or notes"></textarea>
+            <textarea id="message" name="message" placeholder="Timeline, budget range, or additional context"></textarea>
           </div>
 
           <div class="field">
@@ -926,21 +909,24 @@
               <label class="opt email">
                 <input type="radio" name="sendChannel" value="email" checked>
                 <svg viewBox="0 0 16 16" aria-hidden="true">
-                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.2L8 9 0 4.2V4Zm0 1.73V12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.73L8.56 10.2a1 1 0 0 1-1.12 0L0 5.73Z"></path>
+                  <path d="M2 3.5h12a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1Z"></path>
+                  <path d="m1.5 4.5 6.5 4.7 6.5-4.7"></path>
                 </svg>
                 <span>Email</span>
               </label>
+
               <label class="opt whatsapp">
                 <input type="radio" name="sendChannel" value="whatsapp">
                 <svg viewBox="0 0 16 16" aria-hidden="true">
-                  <path d="M13.6 2.33A7.85 7.85 0 0 0 8.04 0C3.58 0 0 3.58 0 8.04a7.9 7.9 0 0 0 1.11 4.02L0 16l4.05-1.06a7.9 7.9 0 0 0 3.99 1.03h.01c4.45 0 8.04-3.58 8.04-8.04a7.96 7.96 0 0 0-2.49-5.6Zm-1.95 7.35c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.44.1-.13.2-.5.64-.62.77-.11.13-.23.15-.43.05-.2-.1-.82-.3-1.57-.98-.58-.52-.98-1.17-1.1-1.37-.11-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.11.13-.2.2-.34.07-.13.03-.25-.02-.35-.05-.1-.44-1.05-.6-1.44-.16-.38-.33-.33-.44-.33h-.38c-.13 0-.34.05-.52.25-.18.2-.68.67-.68 1.63 0 .96.7 1.9.8 2.03.1.13 1.38 2.1 3.34 2.95.47.2.83.31 1.12.4.47.15.9.13 1.24.08.38-.06 1.17-.48 1.34-.94.16-.47.16-.87.11-.95-.05-.08-.18-.13-.38-.23Z"></path>
+                  <path d="M8 1.2a6.8 6.8 0 0 0-5.84 10.27L1 15l3.67-.96A6.8 6.8 0 1 0 8 1.2Z"></path>
+                  <path d="M10.77 9.62c-.13-.07-.77-.38-.89-.43-.12-.04-.2-.07-.29.07-.08.13-.33.43-.4.52-.07.09-.14.1-.27.04-.13-.07-.55-.2-1.04-.64-.39-.35-.65-.79-.73-.92-.08-.13 0-.2.06-.27.06-.06.13-.14.19-.22.06-.07.08-.13.12-.22.04-.09.02-.16-.01-.22-.03-.06-.29-.69-.4-.94-.1-.24-.22-.21-.3-.22h-.26c-.09 0-.22.04-.34.17-.12.13-.45.43-.45 1.05 0 .61.45 1.2.51 1.29.06.08.88 1.34 2.13 1.87.3.13.53.2.72.26.3.09.57.08.78.05.24-.04.75-.31.85-.61.1-.3.1-.57.07-.63-.03-.05-.11-.08-.24-.14Z"></path>
                 </svg>
                 <span>WhatsApp</span>
               </label>
             </div>
           </div>
 
-          <div class="qr-box" id="whatsappQrPanel" aria-hidden="true">
+          <div class="qr" id="whatsappQrPanel" aria-hidden="true">
             <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fwa.me%2F16623521224" alt="WhatsApp QR code">
             <div>
               <strong>Scan to contact on WhatsApp</strong>
@@ -949,48 +935,21 @@
             </div>
           </div>
 
-          <div class="submit-row">
-            <button class="btn primary" type="submit">Send Inquiry</button>
+          <div class="submit">
+            <button class="btn primary" type="submit">
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M2.5 8h11"></path>
+                <path d="m9.5 5 3 3-3 3"></path>
+              </svg>
+              Send Inquiry
+            </button>
             <a class="inline" href="mailto:owner@cryptobar.com">owner@cryptobar.com</a>
           </div>
         </form>
       </aside>
     </section>
 
-    <section class="card why" aria-label="Why this domain matters">
-      <h3>Why buying this domain matters</h3>
-      <div class="why-grid">
-        <article class="why-card">
-          <strong>Category Control</strong>
-          <span>Control a brand name that aligns with crypto-native intent.</span>
-        </article>
-        <article class="why-card">
-          <strong>Increase Conversion Trust</strong>
-          <span>Premium domain identity can improve perception and click confidence.</span>
-        </article>
-        <article class="why-card">
-          <strong>Avoid Rebrand Costs</strong>
-          <span>Acquire the right name now and scale on a stable brand foundation.</span>
-        </article>
-        <article class="why-card">
-          <strong>Defensive Advantage</strong>
-          <span>Secure this scarce .com before a direct competitor takes it.</span>
-        </article>
-      </div>
-    </section>
-
-    <section class="card escrow" aria-label="Escrow information">
-      <div class="escrow-logo-wrap">
-        <img class="escrow-logo" src="escrow-logo.svg" alt="Escrow.com secure transfer">
-      </div>
-      <div class="escrow-copy">
-        <strong>Escrow-Protected Transfer</strong>
-        <span>Escrow is a neutral third-party process where funds are held safely until domain transfer is completed and confirmed, protecting both buyer and seller.</span>
-      </div>
-      <a class="btn email" href="https://www.escrow.com/what-is-escrow" target="_blank" rel="noopener">What Is Escrow?</a>
-    </section>
-
-    <footer class="footer">
+    <footer class="footer reveal delay-3">
       <span>CryptoBar.com is available for acquisition.</span>
       <span>Email: owner@cryptobar.com | WhatsApp: +1 662 352 1224</span>
     </footer>
@@ -998,6 +957,7 @@
     <div class="mobile-dock">
       <a class="btn email" href="mailto:owner@cryptobar.com">Email</a>
       <a class="btn whatsapp" href="https://wa.me/16623521224" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn deck" href="CryptoBar_com_Premium_Deck.pdf" download>Deck</a>
     </div>
   </div>
 
@@ -1031,6 +991,7 @@
         var showOffer = isMakeOffer();
         offerWrap.style.display = showOffer ? "grid" : "none";
         offerInput.required = showOffer;
+
         if (!showOffer) {
           offerInput.value = "";
           offerError.style.display = "none";
@@ -1050,6 +1011,7 @@
         }
 
         var raw = (offerInput.value || "").trim();
+
         if (raw === "") {
           offerError.style.display = "none";
           return false;
@@ -1131,4 +1093,3 @@
   </script>
 </body>
 </html>
-
