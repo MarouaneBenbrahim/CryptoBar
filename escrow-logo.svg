@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="460" height="96" viewBox="0 0 460 96" role="img" aria-labelledby="escrowTitle escrowDesc">
+  <title id="escrowTitle">Escrow.com</title>
+  <desc id="escrowDesc">Premium escrow secured transfer badge</desc>
+  <defs>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8e4be"/>
+      <stop offset="56%" stop-color="#dcb67c"/>
+      <stop offset="100%" stop-color="#b8864d"/>
+    </linearGradient>
+    <linearGradient id="shieldFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d6a7"/>
+      <stop offset="100%" stop-color="#c59656"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="456" height="92" rx="20" fill="#0b1322" stroke="#2a364c"/>
+
+  <g transform="translate(16 16)">
+    <rect width="64" height="64" rx="16" fill="#121d32" stroke="#3a495f"/>
+    <path d="M32 8 51 15.2v10.1c0 14.3-9.5 23.8-19 28.1-9.5-4.3-19-13.8-19-28.1V15.2L32 8Z" fill="url(#shieldFill)"/>
+    <path d="M32 19a6.8 6.8 0 0 0-6.8 6.8V29h-2a1.6 1.6 0 0 0-1.6 1.6v7.5a1.6 1.6 0 0 0 1.6 1.6h17.6a1.6 1.6 0 0 0 1.6-1.6v-7.5a1.6 1.6 0 0 0-1.6-1.6h-2v-3.2A6.8 6.8 0 0 0 32 19Zm4.2 10h-8.4v-3.2a4.2 4.2 0 0 1 8.4 0V29Z" fill="#142238"/>
+  </g>
+
+  <text x="94" y="45" fill="url(#goldText)" font-family="Sora, Segoe UI, Arial, sans-serif" font-size="29" font-weight="800" letter-spacing="0.03em">ESCROW.COM</text>
+  <text x="94" y="68" fill="#9aa9bf" font-family="Sora, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.08em">SECURE DOMAIN TRANSFER</text>
+</svg>
